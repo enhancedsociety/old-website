@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Use the title from a page's frontmatter if it has one -->
+        <title>Enhanced Society</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+        <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="{{ site.url }}/css/mdb.css" rel="stylesheet" />
+
+    </head>
+    <body class="light-blue-skin intro-page software-lp">
+
+        {% include navbar.html %}
+
+        <main>
+            <div class="container">
+
+                {% include features.html %}
+
+                <hr class="between-sections">
+
+                {% include about.html %}
+
+            </div>
+        </main>
+
+        {% include footer.html %}
+
+    </body>
+    <script src="{{ site.url }}/javascripts/jquery-3.1.1.min.js"></script>
+    <script src="{{ site.url }}/javascripts/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/javascripts/mdb.min.js"></script>
+</html>

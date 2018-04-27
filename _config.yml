@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+theme: minima
+title: Enhanced Society
+email: hello@enhancedsociety.com
+description: >
+        Something
+
+baseurl: ""
+url: "https://enhancedsociety.github.io/website/"
