@@ -1,0 +1,73 @@
+body {
+  color: #39575f;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  /*font-weight: 300;*/
+  line-height: 1.556em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2em;
+  font-weight: 200 !important;
+}
+h2 {
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+header {
+  background-position: center bottom;
+}
+header h1 {
+  font-size: 3.33em;
+}
+header h1 > small {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+header hr {
+  width: 15%;
+  margin: 30px auto;
+  border-color: #30BDA5;
+  border-width: 3px;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 263px;
+  margin: 33px 24px 0;
+}
+
+nav {
+  padding: 43px 15px 0;
+  margin: 0;
+}
+.nav-item {
+  margin: 4px 0 4px 40px;
+}
+.nav-item > a {
+  color: #fff;
+  display: inline-block;
+  font-size: 14.7px;
+  font-weight: 500;
+  /*line-height: 50px;*/
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0!important;
+}
+.nav-item.active {
+  border-radius: 30px;
+  padding: 3px 20px;
+  background: rgba(0,0,0,0.15);
+}
+.nav-item > a:hover {
+  border-bottom: 2px solid #31bebf;
+}
+
+.highlight {
+  color: #31bebf;
+}

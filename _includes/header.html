@@ -1,0 +1,30 @@
+<header class="row" style="background: url(/assets/img/{{ include.image | default: "home-banner.jpg" }}); {% if include.cover %}background-size: cover;{% endif %} height: {{ include.height | default: "1000" }}px;">
+	<div class="col-12">
+		<a href="/" class="logo"><img src="/assets/img/logo.svg" /></a>
+	</div>
+	{% comment %}
+	<div class="col mr-auto text-right">
+		{% include nav.html %}
+	</div>
+	{% endcomment %}
+	<div class="container text-center text-white">
+		<h1>
+			{{ include.title }}
+			{% if include.subtitle %}
+				<small class="mt-3">{{ include.subtitle }}</small>
+			{% endif %}
+		</h1>
+		<hr />
+		{% if include.excerpt %}
+			<p>
+				{{ include.excerpt }}
+			</p>
+		{% endif %}
+		{% comment %}
+		<p>
+			<a href="#" class="btn">PLATFORM</a>
+			<a href="#" class="btn">COMMUNITY HUB</a>
+		</p>
+		{% endcomment %}
+	</div>
+</header>
