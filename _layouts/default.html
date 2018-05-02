@@ -10,20 +10,37 @@
 	<title>{{ page.title }}</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/mdb.min.css" rel="stylesheet">
-    <link href="/assets/css/style.css" rel="stylesheet">
+    {% comment %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">{% endcomment %}
+    <link href="{{ site.url }}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/mdb.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/css/style.css" rel="stylesheet">
+   	{% comment %} Google Tag Manager {% endcomment %}
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M4P9XLQ');</script>
+	{% comment %} End Google Tag Manager {% endcomment %}
 </head>
 <body>
+	{% comment %} Google Tag Manager {% endcomment %}
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4P9XLQ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	{% comment %} End Google Tag Manager {% endcomment %}
 	<div class="container-fluid">
 		{{ content }}
-	</div>
-	<div class="container-fluid">
 		{% include footer.html %}
 	</div>
-    <script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/js/mdb.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/mdb.min.js"></script>
+    {% comment %} ZOHO CHAT {% endcomment %}
+    <script type="text/javascript">
+	var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+	{widgetcode:"bf714a8ecf23cb02ce162488fca2ad2f17563a970e136cdb800b81d4c2652480ee6585f49bdd95b88ea99b206b2d32fd", values:{},ready:function(){}};
+	var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+	s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+	</script>
+	{% comment %} END ZOHO CHAT {% endcomment %}
 </body>
 </html>

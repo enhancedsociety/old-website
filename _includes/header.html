@@ -1,6 +1,6 @@
-<header class="row" style="background: url(/assets/img/{{ include.image | default: "home-banner.jpg" }}); {% if include.cover %}background-size: cover;{% endif %} height: {{ include.height | default: "1000" }}px;">
+<header class="row" style="background: url({{ site.url }}/assets/img/{{ include.image | default: "home-banner.jpg" }}); {% if include.cover %}background-size: cover;{% endif %} height: {{ include.height | default: "1000" }}px;">
 	<div class="col-12">
-		<a href="/" class="logo"><img src="/assets/img/logo.svg" /></a>
+		<a href="/" class="logo"><img src="{{ site.url }}/assets/img/logo.svg" /></a>
 	</div>
 	{% comment %}
 	<div class="col mr-auto text-right">
@@ -20,11 +20,5 @@
 				{{ include.excerpt }}
 			</p>
 		{% endif %}
-		{% comment %}
-		<p>
-			<a href="#" class="btn">PLATFORM</a>
-			<a href="#" class="btn">COMMUNITY HUB</a>
-		</p>
-		{% endcomment %}
 	</div>
 </header>
