@@ -28,20 +28,20 @@ data "aws_route53_zone" "enhancedsociety" {
 
 # Domain A-record for WWW origin
 
-resource "aws_route53_record" "a_www-orig" {
+resource "aws_route53_record" "cname_www-orig" {
   zone_id = "${data.aws_route53_zone.enhancedsociety.zone_id}"
   name    = "www-orig"
-  type    = "A"
+  type    = "CNAME"
   ttl     = "300"
-  records = ["185.199.111.153"]
+  records = ["enhancedsociety.github.io"]
 }
 
 # CloudFront distribution
 
 resource "aws_cloudfront_distribution" "www_distribution" {
   origin {
-    domain_name = "${aws_route53_record.a_www-orig.name}.enhancedsociety.com"
-    origin_id = "ID-${aws_route53_record.a_www-orig.name}.enhancedsociety.com"
+    domain_name = "${aws_route53_record.cname_www-orig.name}.enhancedsociety.com"
+    origin_id = "ID-${aws_route53_record.cname_www-orig.name}.enhancedsociety.com"
     custom_origin_config {
       origin_protocol_policy = "http-only"
       http_port = "80"
@@ -67,7 +67,7 @@ resource "aws_cloudfront_distribution" "www_distribution" {
     cached_methods = [
       "GET",
       "HEAD"]
-    target_origin_id = "ID-${aws_route53_record.a_www-orig.name}.enhancedsociety.com"
+    target_origin_id = "ID-${aws_route53_record.cname_www-orig.name}.enhancedsociety.com"
 
     forwarded_values {
       query_string = false

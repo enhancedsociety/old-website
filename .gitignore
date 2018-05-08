@@ -1,2 +1,3 @@
 _site
 _infrastructure/.terraform
+_infrastructure/terraform.tfstate.*
