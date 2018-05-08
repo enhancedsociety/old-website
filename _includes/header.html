@@ -1,24 +1,29 @@
-<header class="row" style="background: url(/assets/img/{{ include.image | default: "home-banner.jpg" }}); {% if include.cover %}background-size: cover;{% endif %} height: {{ include.height | default: "1000" }}px;">
-	<div class="col-12">
-		<a href="/" class="logo"><img src="/assets/img/logo.svg" /></a>
+<header class="row" style="background: url(/assets/img/{{ page.header_image | default: "home-banner.jpg" }}); {% if page.header_cover %}background-size: cover;{% endif %} height: {{ page.header_height | default: "150" }}px;">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col col-sm-6">
+				<a href="/" class="logo"><img src="/assets/img/logo.svg" /></a>
+			</div>
+			<div class="d-none d-sm-block col-sm-6 text-right align-self-center pr-4">
+				<a href="https://t.me/enhancedsociety" target="_blank"><i class="fab fa-telegram fa-2x py-5 px-2 white-text"></i></a>
+				<a href="https://github.com/enhancedsociety/" target="_blank"><i class="fab fa-github fa-2x py-5 px-2 white-text"></i></a>
+			</div>
+		</div>
 	</div>
-	{% comment %}
-	<div class="col mr-auto text-right">
-		{% include nav.html %}
-	</div>
-	{% endcomment %}
-	<div class="container text-center text-white">
-		<h1 class="h1-responsive">
-			{{ include.title }}
-			{% if include.subtitle %}
-				<small class="mt-3">{{ include.subtitle }}</small>
+	{% if page.header_title %}
+		<div class="container text-center text-white">
+			<h1 class="h1-responsive">
+				{{ page.header_title }}
+				{% if page.header_subtitle %}
+					<small class="mt-3">{{ page.header_subtitle }}</small>
+				{% endif %}
+			</h1>
+			<hr />
+			{% if page.header_excerpt %}
+				<p>
+					{{ page.header_excerpt }}
+				</p>
 			{% endif %}
-		</h1>
-		<hr />
-		{% if include.excerpt %}
-			<p>
-				{{ include.excerpt }}
-			</p>
-		{% endif %}
-	</div>
+		</div>
+	{% endif %}
 </header>

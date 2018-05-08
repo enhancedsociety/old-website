@@ -7,7 +7,7 @@
 	<title>{{ page.title }}</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
-    {% comment %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">{% endcomment %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/mdb.min.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
@@ -25,6 +25,7 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	{% comment %} End Google Tag Manager {% endcomment %}
 	<div class="container-fluid">
+		{% include header.html %}
 		{{ content }}
 		{% include footer.html %}
 	</div>
