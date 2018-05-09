@@ -79,4 +79,4 @@ title: Token Sale Advisory - Enhanced Society
 	<p class="grey-text">
 		If you have a new idea or an existing idea that would benefit from the Blockchain then please reach out.  
 	</p>
-  <button type="button" class="btn btn-default">Get started</button>
+	<button type="button" class="btn btn-outline-default waves-effect">Get Started</button>
