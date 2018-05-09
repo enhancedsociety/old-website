@@ -1,0 +1,62 @@
+- name: Kim Hansen
+  image: kim.png
+  title: Founder & CEO
+  linkedin: https://www.linkedin.com/in/kimhansenyeah
+
+- name: Jason Atkins
+  image: jason.png
+  title: Founder & CFO
+  linkedin: https://www.linkedin.com/in/jason-atkins-05212715
+
+- name: David Novakovic
+  image: d.png
+  title: CTO
+  linkedin: https://www.linkedin.com/in/davidnovakovic
+
+- name: Adam Gallagher
+  image: adam.png
+  title: COO
+  linkedin: https://www.linkedin.com/in/adam-gallagher-75b67615/
+
+- name: Jo Kershaw
+  image: jo.png
+  title: Community Manager
+  linkedin: https://www.linkedin.com/in/joanne-kershaw-76a1536
+
+- name: Belinda Sippe
+  image: belinda.png
+  title: Crypto Analyst
+  linkedin: https://www.linkedin.com/in/belinda-sippe-10652986
+
+- name: Johan Kriegbaum
+  image: johan.png
+  title: Product Owner
+  linkedin: https://www.linkedin.com/in/johan-kriegbaum-50309432
+
+- name: Rock Enright
+  image: rock.png
+  title: Communications Manager
+  linkedin: https://www.linkedin.com/in/rochelle-enright
+
+- name: Carl Ballantyne
+  image: carl.png
+  title: Blockchain Engineer
+  linkedin: https://www.linkedin.com/in/carlballantyne/
+
+- name: Erik Andersson
+  image: erik.png
+  title: Blockchain Developer
+  linkedin: https://www.linkedin.com/in/swede/
+
+- name: Tan Roowala
+  image: tan.png
+  title: Blockchain Developer
+  linkedin: https://www.linkedin.com/in/troowala
+
+- name: David Enright
+  image: david.png
+  title: Fund Committee
+
+- name: Philip Nyssen
+  image: philip.png
+  title: Fund Committee

@@ -1,0 +1,20 @@
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex align-items-stretch">
+	<div class="card card-cascade wider">
+		<div class="view overlay">
+			<img src="/assets/img/profiles/{{ person.image }}" class="img-fluid m-auto">
+		</div>
+		<div class="card-body pt-3 pb-1">
+			<h4 class="title">{{ person.name }}</h4>
+			{% if person.title %}
+				<p>
+					{{ person.title }}
+				</p>
+			{% endif %}
+		</div>
+		{% if person.linkedin %}
+			<div class="card-footer p-2">
+				<a href="{{ person.linkedin }}" target="_blank" class="grey-text"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		{% endif %}
+	</div>
+</div>
