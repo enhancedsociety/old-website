@@ -1,10 +1,11 @@
 <header class="row" style="background: url(/assets/img/{{ page.header_image | default: "home-banner.jpg" }}); {% if page.header_cover %}background-size: cover;{% endif %} height: {{ page.header_height | default: "150" }}px;">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col col-sm-6">
+			<div class="col w-100">
 				<a href="/" class="logo"><img src="/assets/img/logo.svg" /></a>
 			</div>
-			<div class="d-none d-sm-block col-sm-6 text-right align-self-center pr-4">
+			<div class="d-none d-sm-flex align-items-center text-right pr-4">
+				<a href="https://app.enhancedsociety.com/login/" class="white-text mr-3" target="_blank">Sign in</a>
 				<a href="https://t.me/enhancedsociety" target="_blank"><i class="fab fa-telegram fa-2x py-5 px-2 white-text"></i></a>
 				<a href="https://github.com/enhancedsociety/" target="_blank"><i class="fab fa-github fa-2x py-5 px-2 white-text"></i></a>
 			</div>
