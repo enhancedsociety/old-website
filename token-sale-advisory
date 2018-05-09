@@ -27,7 +27,7 @@ title: Token Sale Advisory - Enhanced Society
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Phase 1 - Project Initiation</h5>
-            <p class="card-text">This is a wider panel with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Tokenise your idea inline with legal governance and establish branding and communication strategies to drive your project forward.</p>
             <p class="card-text"><small class="text-muted">Timing: 1 - 3 months</small></p>
         </div>
     </div>
@@ -37,7 +37,7 @@ title: Token Sale Advisory - Enhanced Society
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Phase 2 - Private Token Sale</h5>
-            <p class="card-text">This panel has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">Execute communication strategies, develop a community of early investors and commence smart contract development and auditing.</p>
             <p class="card-text"><small class="text-muted">Timing: 1 - 2 months</small></p>
         </div>
     </div>
@@ -47,7 +47,7 @@ title: Token Sale Advisory - Enhanced Society
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Phase 3 - Pre Token Sale</h5>
-            <p class="card-text">This is a wider panel with supporting text below as a natural lead-in to additional content. This panel has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Legal analysis of token and security implementation, execute on community management plan and deploy full scale marketing strategy.</p>
             <p class="card-text"><small class="text-muted">Timing: 1 - 2 months</small></p>
         </div>
     </div>
@@ -57,7 +57,7 @@ title: Token Sale Advisory - Enhanced Society
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Phase 4 - Public Token Sale</h5>
-            <p class="card-text">This is a wider panel with supporting text below as a natural lead-in to additional content. This panel has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Management of marketing channels, partnerships and promotions, whilst providing high level engagement to the growing community.</p>
             <p class="card-text"><small class="text-muted">Timing: 4 - 6 weeks</small></p>
         </div>
     </div>
@@ -67,13 +67,54 @@ title: Token Sale Advisory - Enhanced Society
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Phase 5 - Post Token Offering</h5>
-            <p class="card-text">This is a wider panel with supporting text below as a natural lead-in to additional content. This panel has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">Distribution of tokens, ongoing governance, escrow and exchange management.</p>
             <p class="card-text"><small class="text-muted">Timing: 4 - 6 weeks</small></p>
         </div>
     </div>
     <!--/.Panel-->
     
 </div>
+
+<h2 class="my-5">Our Services</h2>
+	<p class="grey-text">
+		The team at Enhanced Society provides a full service, end to end, token sale advisory service. We specalise in the following services:
+	</p>
+
+	<div class="row mt-5">
+		<div class="col-lg-5 text-center text-lg-left pb-5">
+			<img src="/assets/img/enhanced-investor.png" alt="" class="img-fluid z-depth-0">
+		</div>
+		<div class="col-lg-7">
+			<div class="row pb-3">
+				<div class="col-2 col-md-1">
+					<img src="/assets/img/icons/resources.png" alt="" class="img-fluid z-depth-0">
+				</div>
+				<div class="col-10">
+					<h5 class="font-weight-bold text-left mb-3 dark-grey-text">Strategy</h5>
+					<p class="grey-text text-left">Tokenisation, brand development, key documentation, industry analysis, legal and governance advise.</p>
+				</div>
+			</div>
+			<div class="row pb-3">
+				<div class="col-2 col-md-1">
+					<img src="/assets/img/icons/start-business.png" alt="" class="img-fluid z-depth-0">
+				</div>
+				<div class="col-10">
+					<h5 class="font-weight-bold text-left mb-3 dark-grey-text">Community Building</h5>
+					<p class="grey-text text-left">Communication strategy development, execution via social channels and management of ongoing engagement.</p>
+				</div>
+			</div>
+			<div class="row pb-3">
+				<div class="col-2 col-md-1">
+					<img src="/assets/img/icons/collaborate.png" alt="" class="img-fluid z-depth-0">
+				</div>
+				<div class="col-10">
+					<h5 class="font-weight-bold text-left mb-3 dark-grey-text">Technology</h5>
+					<p class="grey-text text-left">Smart contract development and auditing, security, KYC, AML, accredited investor verification, bountry functionality, multisignature wallet management and token distribution.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
   <h2 class="my-5">Ready to make a start?</h2>
 	<p class="grey-text">
