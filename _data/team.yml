@@ -28,15 +28,20 @@
   title: Crypto Analyst
   linkedin: https://www.linkedin.com/in/belinda-sippe-10652986
 
-- name: Johan Kriegbaum
-  image: johan.png
-  title: Product Owner
-  linkedin: https://www.linkedin.com/in/johan-kriegbaum-50309432
-
 - name: Rock Enright
   image: rock.png
   title: Communications Manager
   linkedin: https://www.linkedin.com/in/rochelle-enright
+
+- name: Emma Davies
+  image: emma.png
+  title: Office Manager
+  linkedin: https://www.linkedin.com/in/emma-davies-838a78109
+  
+- name: Johan Kriegbaum
+  image: johan.png
+  title: Product Owner
+  linkedin: https://www.linkedin.com/in/johan-kriegbaum-50309432
 
 - name: Carl Ballantyne
   image: carl.png
