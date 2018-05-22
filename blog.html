@@ -1,0 +1,43 @@
+---
+layout: default
+title: Blog - Enhanced Society
+---
+<div class="container">
+	<div class="row my-5">
+		<div class="col">
+			<h1 class="h1-responsive mb-5 text-center">Blog</h1>
+			{% for post in site.posts %}
+				<div class="media mb-4">
+					{% if post.thumb_src %}
+						<a href="{{ post.url }}"><img class="d-flex mr-3" src="{{ post.thumb_src }}" alt="{{ post.title }}"></a>
+					{% endif %}
+					<div class="media-body">
+						<h5 class="mt-0 font-weight-bold"><a href="{{ post.url }}" class="black-text">{{ post.title }}</a></h5>
+						{% if post.excerpt %}
+							{{ post.excerpt }}
+						{% endif %}
+					</div>
+				</div>
+			{% endfor %}
+			{% comment %}
+			{% if paginator.previous_page or paginator.next_page %}
+				<div class="pagination">
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+					{% else %}
+						<span class="previous">Previous</span>
+					{% endif %}
+
+					<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+					{% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+					{% else %}
+						<span class="next ">Next</span>
+					{% endif %}
+				</div>
+			{% endif %}
+			{% endcomment %}
+		</div>
+	</div>
+</div>
