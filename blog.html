@@ -10,7 +10,9 @@ title: Blog - Enhanced Society
 				{% assign author = site.data.authors[post.author] %}
 				<div class="media mb-4">
 					{% if author %}
-						<img class="d-flex img-fluid img-thumbnail rounded-circle mr-3" src="/assets/img/profiles/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}" style="max-height: 130px;">
+						<div class="mr-3 d-none d-sm-block">
+							<img class="img-fluid img-thumbnail rounded-circle" src="/assets/img/profiles/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}" style="max-height: 130px;">
+						</div>
 					{% endif %}
 					<div class="media-body">
 						<h5 class="mt-0 font-weight-bold">
