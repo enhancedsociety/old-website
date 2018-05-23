@@ -7,13 +7,22 @@ title: Blog - Enhanced Society
 		<div class="col">
 			<h1 class="h1-responsive mb-5 text-center">Blog</h1>
 			{% for post in site.posts %}
+				{% assign author = site.data.authors[post.author] %}
 				<div class="media mb-4">
-					{% if post.thumb_src %}
-						<a href="{{ post.url }}"><img class="d-flex mr-3" src="{{ post.thumb_src }}" alt="{{ post.title }}"></a>
+					{% if author %}
+						<img class="d-flex img-fluid img-thumbnail rounded-circle mr-3" src="/assets/img/profiles/{{ author.image }}" alt="{{ author.name }}" title="{{ author.name }}" style="max-height: 130px;">
 					{% endif %}
 					<div class="media-body">
-						<h5 class="mt-0 font-weight-bold"><a href="{{ post.url }}" class="black-text">{{ post.title }}</a></h5>
+						<h5 class="mt-0 font-weight-bold">
+							<a href="{{ post.url }}" class="black-text">{{ post.title }}</a>
+							{% if author %}
+								<small>by {{ author.name }}</small>
+							{% endif %}
+						</h5>
 						{% if post.excerpt %}
+							{% if post.thumb_src %}
+								<a href="{{ post.url }}"><img class="d-flex ml-3 mb-2 mt-2 img-thumbnail float-right" src="{{ post.thumb_src }}" alt="{{ post.title }}"></a>
+							{% endif %}
 							{{ post.excerpt }}
 						{% endif %}
 					</div>
