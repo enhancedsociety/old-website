@@ -69,3 +69,5 @@ We're going to start a series of interviews with our team and community to show 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Jason getting hang time. <a href="https://twitter.com/hashtag/creativehealthylifestyle?src=hash&amp;ref_src=twsrc%5Etfw">#creativehealthylifestyle</a> <a href="https://twitter.com/hashtag/cfolyfe?src=hash&amp;ref_src=twsrc%5Etfw">#cfolyfe</a> #🤙 <a href="https://t.co/tzyCTSx1X9">pic.twitter.com/tzyCTSx1X9</a></p>&mdash; Enhanced Society (@societyenhanced) <a href="https://twitter.com/societyenhanced/status/1003457469199237120?ref_src=twsrc%5Etfw">June 4, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+Once again - come say hello in our telegram chat: <a href="https://t.me/enhancedsociety">ES Telegram chat</a>
