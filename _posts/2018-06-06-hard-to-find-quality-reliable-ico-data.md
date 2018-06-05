@@ -17,9 +17,9 @@ It became evident that there is a significant lack of reporting on success of IC
 
 To get a feeling for failure rates within a larger dataset than that available in tokendata.io I applied the following logic:
 
-..* If status is ‘Failed’ in tokendata.io, OR
-..* If total $ raised is zero or unreported and ICO end date prior to today, OR
-..* If total $ raised is less than 80% of total cap if one was set (where both figures available in USD) and  ICO end date prior to today
+* If status is ‘Failed’ in tokendata.io, OR
+* If total $ raised is zero or unreported and ICO end date prior to today, OR
+* If total $ raised is less than 80% of total cap if one was set (where both figures available in USD) and  ICO end date prior to today
 
 ![alt text](https://github.com/enhancedsociety/website/blob/ICO-stats/assets/img/ICO_FailureRates.PNG "ICO Failure Rates")
 
