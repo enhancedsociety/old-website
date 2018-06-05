@@ -28,7 +28,7 @@ I also discovered there is no easy way to confirm that the token sale framework 
 Why is this information, so important to investors, regulators and the tech community at large, not made available with any guarantee on authenticity and reliability?  Is there an opportunity for making such data available through provision of on-chain verified data?  We would love to see existing players in the ICO stats field implement data integrity measures to provide guarantees on data quality and provide open access to such information.  Supporting collaboration between existing data sources and driving action towards higher data integrity in the industry would align with Enhanced Society’s values of transparency, authenticity and promotion of utility.
 
 
-####Data Sources & Disclaimer
+#### Data Sources & Disclaimer
 Data sources incorporated into our ICO analysis include tokendata.io, coinschedule.com, etherscan.io, cryptoslate.com.  
 
 Data has not been verified...how good would it be if our community could drive this change and make this dataset available for future reference?
