@@ -5,7 +5,7 @@ date: 2018-06-06
 author: belinda
 ---
 
-## Why is it so hard to find quality reliable ICO data?
+## Can we rely on the ICO data currently available?
 
 One of the key features available on Enhanced Society’s platform is the facilitation of TSEs (token sale events) for companies running ICOs.  Hence, it is essential for our clients that we have a good understanding of how ICOs have been implemented historically as well as having a handle on the state of the current ICO environment.  Access to reliable information on ICOs is imperative for investors, regulators and other players with ‘skin in the game’ for making informed decisions.  For anyone familiar with ICOs initiated in the last 12 months it is obvious that identifying quality in this space can be challenging at best!
 
