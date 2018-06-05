@@ -16,9 +16,11 @@ The challenges I faced sourcing data for analysis included missing data points, 
 It became evident that there is a significant lack of reporting on success of ICOs with more focus on completion rather than identifying whether an ICO met their set caps.  Tokendata.io applies a status for ICOs once they pass their end date yet it appears the number of ICOs with status of Failed is lower than we might expect (anecdotal) and there is a lag (as expected) in the more recent ICOs.
 
 To get a feeling for failure rates within a larger dataset than that available in tokendata.io I applied the following logic:
+
 ..* If status is ‘Failed’ in tokendata.io, OR
 ..* If total $ raised is zero or unreported and ICO end date prior to today, OR
 ..* If total $ raised is less than 80% of total cap if one was set (where both figures available in USD) and  ICO end date prior to today
+
 ![alt text](https://github.com/enhancedsociety/website/blob/ICO-stats/assets/img/ICO_FailureRates.PNG "ICO Failure Rates")
 
 Over the last 12 months failure rates look to have increased from 20% to a high of 71% in Dec ‘17 and tracking around 55% this year. It is important to note that failure rate refers to the ICO investment phase and the definition applied here may not be ideal classification but it is a start.  It would be incredibly valuable to be able to apply further analysis down the track to this dataset, ideally when we can get more of this baseline data verified, and begin to analyse success based on utility, progress against milestones and community engagement. 
