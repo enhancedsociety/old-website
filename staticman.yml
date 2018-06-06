@@ -1,0 +1,14 @@
+comments:
+  allowedFields: ["name", "body"]
+  branch: "master"
+  commitMessage: "Add comment data"
+  filename: "{@timestamp}"
+  format: "yaml"
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "body"]
