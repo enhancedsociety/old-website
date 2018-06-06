@@ -48,7 +48,7 @@
 			{% assign timestamp = comment_data[0] %}
 			{% assign comment = comment_data[1] %}
 			<div class="my-4">
-				<small>{{ timestamp | date: "%e %b %Y - %l:%M%p" }}</small>
+				<small>{{ comment.timestamp | date: "%e %b %Y - %l:%M%p" }}</small>
 				<h5 class="h5-responsive">
 					{{ comment.name }}
 				</h5>
