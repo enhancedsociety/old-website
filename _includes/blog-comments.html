@@ -45,10 +45,10 @@
 
 		{% assign comments = sortable_comments | sort %}
 		{% for comment_data in comments limit: 50 %}
-			{% assign timestamp = comment_data[0] %}
 			{% assign comment = comment_data[1] %}
+			{% assign datetime = comment.timestamp | date: "%a %b %e %Y %H:%M:%S UTC" %}
 			<div class="my-4">
-				<small>{{ comment.timestamp | date: "%e %b %Y - %l:%M%p" }}</small>
+				<small>{{ datetime | time_zone: "Sydney" | date: "%e %b %Y - %l:%M%p" }}</small>
 				<h5 class="h5-responsive">
 					{{ comment.name }}
 				</h5>
