@@ -1,0 +1,62 @@
+{% assign comments_slug = page.comments_slug %}
+{% unless comments_slug %}
+	{% assign comments_slug = page.title | slugify %}
+{% endunless %}
+<div class="mt-5">
+	<h2 class="h2-responsive">Comments</h2>
+
+	<div class="accordion my-4" id="comments-form-accordion" role="tablist" aria-multiselectable="true">
+		<div class="card">
+			<div class="card-header" role="tab" id="comments-form-heading">
+				<a data-toggle="collapse" data-parent="#comments-form-accordion" href="#comments-form" aria-expanded="true" aria-controls="comments-form">
+				<h5 class="h5-responsive black-text">
+					Add your comment
+					<i class="fa fa-angle-down rotate-icon ml-auto float-right"></i>
+				</h5>
+				</a>
+			</div>
+			<div id="comments-form" class="collapse" role="tabpanel" aria-labelledby="comments-form-heading" data-parent="#comments-form-accordion">
+				<div class="card-body">
+					<form method="post" action="https://api.staticman.net/v2/entry/enhancedsociety/website/master/comments">
+						<div class="form-group">
+							<label for="comments-form-name">Name</label>
+							<input class="form-control" type="text" id="comments-form-name" name="fields[name]" />
+						</div>
+						<div class="form-group">
+							<label for="comments-form-body">Comment</label>
+							<textarea class="form-control" rows="6" id="comments-form-body" name="fields[body]"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="hidden" name="options[slug]" value="{{ comments_slug }}">
+							<input class="btn btn-primary" type="submit" value="Submit Comment" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% if site.data.comments[comments_slug].size > 0 %}
+		{% assign sortable_comments = "" | split: ',' %}
+		{% for item in site.data.comments[comments_slug] %}
+			{% assign sortable_comments = sortable_comments | push: item %}
+		{% endfor %}
+
+		{% assign comments = sortable_comments | sort %}
+		{% for comment_data in comments limit: 50 %}
+			{% assign timestamp = comment_data[0] %}
+			{% assign comment = comment_data[1] %}
+			<div class="my-4">
+				<small>{{ timestamp | date: "%e %b %Y - %l:%M%p" }}</small>
+				<h5 class="h5-responsive">
+					{{ comment.name }}
+				</h5>
+				{{ comment.body | markdownify }}
+			</div>
+		{% endfor %}
+	{% else %}
+		{% comment %}
+			<i>Be the first to comment</i>
+		{% endcomment %}
+	{% endif %}
+</div>
