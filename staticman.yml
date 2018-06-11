@@ -1,4 +1,4 @@
-comments:
+staticman:
   allowedFields: ["name", "body"]
   branch: "master"
   commitMessage: "Add comment data"
