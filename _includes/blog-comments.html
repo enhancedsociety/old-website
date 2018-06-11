@@ -38,6 +38,11 @@
 			</div>
 		</div>
 	</div>
+<style>
+input.email {
+	display: none!important;
+}
+</style>
 
 	{% if site.data.comments[comments_slug].size > 0 %}
 		{% assign sortable_comments = "" | split: ',' %}
