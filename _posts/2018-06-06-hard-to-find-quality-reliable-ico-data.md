@@ -5,8 +5,6 @@ date: 2018-06-07
 author: belinda
 ---
 
-## ICO Data Integrity Under Question
-
 It is clear that ICO data needs to improve. Why is this information, so important to investors, regulators and the tech community at large, not made available with any guarantee on authenticity and reliability?  It is essential for anyone involved in ICOs to have a good understanding of how other ICOs have been implemented historically as well as having a handle on the state of the current ICO environment.  Access to reliable information on ICOs is imperative for investors, regulators and other players with ‘skin in the game’ for making informed decisions.  For anyone familiar with ICOs initiated in the last 12 months it is obvious that identifying quality in this space can be challenging at best!
 
 ### Exploring Available Data
