@@ -27,22 +27,16 @@
 							<textarea class="form-control" rows="6" id="comments-form-body" name="fields[body]"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="text" class="d-none" name="fields[d-none]" autocomplete="off" />
-							<input type="text" class="email" name="fields[email]" autocomplete="off" />
+							<input type="text" class="d-none" name="fields[email]" id="email" value="you@email.com" autocomplete="off" />
 							<input type="hidden" name="options[slug]" value="{{ comments_slug }}">
 							<input type="hidden" name="options[redirect]" value="https://www.enhancedsociety.com/thank-you">
-							<input class="btn btn-primary" type="submit" value="Submit Comment" />
+							<input class="btn btn-primary" type="submit" value="Submit Comment" id="submit-comment" onclick="$('#email').val()=='you@email.com'?$('#email').val(''):void(0);" />
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-<style>
-input.email {
-	display: none!important;
-}
-</style>
 
 	{% if site.data.comments[comments_slug].size > 0 %}
 		{% assign sortable_comments = "" | split: ',' %}
