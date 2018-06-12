@@ -26,7 +26,7 @@ To get a feeling for failure rates within a larger dataset than that available i
 ### Failure Rates Insights
 Over the last 12 months failure rates look to have increased from 20% to a high of 71% in Dec ‘17 and tracking around 55% this year. It is important to note that failure rate refers to the ICO investment phase and the definition applied here may not be ideal classification but it is a start.  It would be incredibly valuable to be able to apply further analysis down the track to this dataset, ideally when we can get more of this baseline data verified, and begin to analyse success based on utility, progress against milestones and community engagement. 
 
-![alt text](https://github.com/enhancedsociety/website/blob/ICO-stats/assets/img/ICO_FailureRates.PNG "ICO Failure Rates")
+![alt text](https://www.enhancedsociety.com/assets/img/ICO_FailureRates.PNG "ICO Failure Rates")
 
 ### Data Verification
 I also discovered there is no easy way to confirm that the token sale framework was implemented as stated.  It seems there is a lack of transparency and authenticity within existing ICO statistics and it became clear that there is no one source of truth openly accessible to the community.   
