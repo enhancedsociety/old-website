@@ -5,7 +5,9 @@ date: 2018-06-07
 author: belinda
 ---
 
-It is clear that ICO data needs to improve. Why is this information, so important to investors, regulators and the tech community at large, not made available with any guarantee on authenticity and reliability?  It is essential for anyone involved in ICOs to have a good understanding of how other ICOs have been implemented historically as well as having a handle on the state of the current ICO environment.  Access to reliable information on ICOs is imperative for investors, regulators and other players with ‘skin in the game’ for making informed decisions.  For anyone familiar with ICOs initiated in the last 12 months it is obvious that identifying quality in this space can be challenging at best!
+It is clear that ICO data needs to improve. Why is this information, so important to investors, regulators and the tech community at large, not made available with any guarantee on authenticity and reliability?  
+
+It is essential for anyone involved in ICOs to have a good understanding of how other ICOs have been implemented historically as well as having a handle on the state of the current ICO environment.  Access to reliable information on ICOs is imperative for investors, regulators and other players with ‘skin in the game’ for making informed decisions.  For anyone familiar with ICOs initiated in the last 12 months it is obvious that identifying quality in this space can be challenging at best!
 
 ### Exploring Available Data
 I have been researching and collating ICO statistics as part of a larger goal to identify which projects have quality applications and to understand their utility.  Obtaining data on pre-sale and ICO run dates, token prices, soft and hard caps, country of origin, discounts, supply, vesting and distribution is where I started.  However, during the initial research and data gathering phase it became evident that reliable and verified data was hard to come by, with the majority of sources reliant on companies submitting their own data.  
