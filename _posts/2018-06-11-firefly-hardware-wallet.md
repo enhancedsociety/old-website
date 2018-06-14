@@ -6,11 +6,17 @@ author: d
 ---
 Hello friends,
 
-Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited.
+Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited. We're thinking about running a little crowd sale to help fund a production run of the device.. leave a comment below if you have an interest in this!
 
-It's still in early stages of development, but that's ok.. it's open source! We're teaming up with Steve and Skip at the Gold Coast Techspace who have started working on a PCB design ready for production.
+It's still in early stages of development, but that's ok.. it's open source! We're teaming up with [Steve](https://twitter.com/spidie) and Skip at the [Gold Coast Techspace](https://gctechspace.org/) who have started working on a PCB design ready for production.
 
-Richard, the original creator is responsive and seems interested in what we're up to. So hopefully we'll get this thing happening!
+Here's some photos of the prototype and it integrating with the iOS Ethers app.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Check out <a href="https://twitter.com/spidie?ref_src=twsrc%5Etfw">@spidie</a> from  <a href="https://twitter.com/gctechspace?ref_src=twsrc%5Etfw">@gctechspace</a> amazing work on the <a href="https://twitter.com/firefly_wallet?ref_src=twsrc%5Etfw">@firefly_wallet</a> prototype. We&#39;re gearing up for a production run on these. Will post on our blog shortly! Hit us up for deets 🤙 <a href="https://twitter.com/hashtag/ethereum?src=hash&amp;ref_src=twsrc%5Etfw">#ethereum</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/hardwarewallet?src=hash&amp;ref_src=twsrc%5Etfw">#hardwarewallet</a> <a href="https://t.co/nAuEgZNvPO">pic.twitter.com/nAuEgZNvPO</a></p>&mdash; Enhanced Society (@societyenhanced) <a href="https://twitter.com/societyenhanced/status/1007041106427588608?ref_src=twsrc%5Etfw">June 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+[Richard](https://twitter.com/ricmoo), the original creator is responsive and seems interested in what we're up to. So hopefully we'll get this thing happening in production and with SDK's for other platforms.
 
 Some of the key things we love about it here at ES:
 * open source design for hardware, software and housing
