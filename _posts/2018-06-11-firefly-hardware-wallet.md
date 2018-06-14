@@ -1,12 +1,10 @@
 ---
 layout: blog
-title: Introduction to Enhanced Society
+title: Firefly, an open source hardware wallet.
 date: 2018-06-11
 author: d
 ---
-Hello friends,
-
-Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited. We're thinking about running a little crowd sale to help fund a production run of the device.. leave a comment below if you have an interest in this!
+Hello friends! Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited. We're thinking about running a little crowd sale to help fund a production run of the device.. leave a comment below if you have an interest in this!
 
 It's still in early stages of development, but that's ok.. it's open source! We're teaming up with [Steve](https://twitter.com/spidie) and Skip at the [Gold Coast Techspace](https://gctechspace.org/) who have started working on a PCB design ready for production.
 
