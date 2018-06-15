@@ -7,8 +7,7 @@ published: true
 ---
 Hello friends! Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited. We're thinking about running a little crowd sale to help fund a production run of the device.. leave a comment below if you have an interest in this!
 
-![IMG_20150116_120200043_HDR.jpg]({{site.baseurl}}/_posts/IMG_20150116_120200043_HDR.jpg)
-
+![IMG_20150116_120200043_HDR.jpg]({{site.baseurl}}/assets/img/IMG_20150116_120200043_HDR.jpg)
 
 It's still in early stages of development, but that's ok.. it's open source! We're teaming up with [Steve](https://twitter.com/spidie) and Skip (both pictured above) at the [Gold Coast Techspace](https://gctechspace.org/) who have started working on a PCB design ready for production.
 
