@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 'Firefly, an open source hardware wallet.'
-date: {}
+date: 2018-06-06
 author: d
 published: true
 ---
