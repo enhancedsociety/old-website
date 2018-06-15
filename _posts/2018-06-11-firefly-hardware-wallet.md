@@ -39,6 +39,5 @@ We're going to get stuck into some of the Android stuff ASAP.
 
 So what's next?
 
-Well, the project is running through the Enhanced Society ALPHA platform so we'll execute on the above jobs, obtain validation and run the concept through our quality filter.  We'll launch the crowdsale contract to start collecting funds from people who may be interested in buying one.
+Well, the project is running through the Enhanced Society ALPHA platform so we'll execute on the above jobs, obtain validation and run the concept through our quality filter.  We'll launch the crowdsale contract to start collecting funds from people who may be interested in buying one. Stay turned.
 
-CALL TO ACTION required here to enable the rad to get involved if they want to invest.  I assume it's to our platform, run the KYC and send them the link to the $10 contract???
