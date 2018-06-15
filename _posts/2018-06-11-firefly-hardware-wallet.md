@@ -5,11 +5,13 @@ date: 2018-06-06
 author: d
 published: true
 ---
-Hello friends! Security is an important part of what we do at ES. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. So when we found out about the [firefly wallet](http://firefly.city), we got very excited. We're thinking about running a little crowd sale to help fund a production run of the device.. leave a comment below if you have an interest in this!
+Hello friends! Security is an important part of what we do at Enhanced Society. It's critical to the operation of trustless networks and is often given insufficient attention. We see hardware wallets as one of the key ways to secure digital assets. 
+
+Introducing Enhanced Societys very own hardware wallet.
 
 <img src="{{site.baseurl}}/assets/img/IMG_20150116_120200043_HDR.jpg" alt="IMG_20150116_120200043_HDR.jpg" width="60%">
 
-It's still in early stages of development, but that's ok.. it's open source! We're teaming up with [Steve](https://twitter.com/spidie) and Skip (both pictured above) at the [Gold Coast Techspace](https://gctechspace.org/) who have started working on a PCB design ready for production.
+It's still in early stages of development, but that's ok.. it's open source! We've teamed up with [Steve](https://twitter.com/spidie) and Skip (both pictured above) at the [Gold Coast Techspace](https://gctechspace.org/) who have started working on a PCB design ready for production.
 
 Here's some photos of the prototype and it integrating with the iOS Ethers app.
 
@@ -20,13 +22,13 @@ Here's some photos of the prototype and it integrating with the iOS Ethers app.
 
 [Richard](https://twitter.com/ricmoo), the original creator is responsive and seems interested in what we're up to. So hopefully we'll get this thing happening in production and with SDK's for other platforms.
 
-Some of the key things we love about it here at ES:
+Some of the key things we love about it here at Enhanced Society:
 * open source design for hardware, software and housing
 * cheap (should be under $10 to make)
 * simple
-* water proof case so it's CHL friendly!
+* water proof case so it's CHL friendly! (We'll share more about CHL soon)
 
-Here's a rough list of the things I see that need to be done:
+Here's a rough list of the jobs that need to be done:
 * completion of PCB and production run of it
 * printing enough cases to house the completed wallets
 * Android SDK and integrations into apps
@@ -34,6 +36,9 @@ Here's a rough list of the things I see that need to be done:
 * iOS SDK
 
 We're going to get stuck into some of the Android stuff ASAP.
+
 So what's next?
 
-Well, we're thinking we should put up a crowdsale contract to start collecting funds from people who may be interested in buying one. If there's interest I'll set up a project on our platform and start sharing out to people.
+Well, the project is running through the Enhanced Society ALPHA platform so we'll execute on the above jobs, obtain validation and run the concept through our quality filter.  We'll launch the crowdsale contract to start collecting funds from people who may be interested in buying one.
+
+CALL TO ACTION required here to enable the rad to get involved if they want to invest.  I assume it's to our platform, run the KYC and send them the link to the $10 contract???
