@@ -4,14 +4,14 @@ There is so much hype and speculation in the blockchain space, as well as geekin
 
 #Here's what's real
 
-⋅⋅*Blockchain technology is at the core the most trusted system on the planet
-⋅⋅*There is a potential to build online systems with more inclusivity, openness, privacy and security
-⋅⋅*Using tokenomics/crypto-economics we have a new way to program incentives with blockchain technology
+*Blockchain technology is at the core the most trusted system on the planet
+*There is a potential to build online systems with more inclusivity, openness, privacy and security
+*Using tokenomics/crypto-economics we have a new way to program incentives with blockchain technology
 
 #And here's some hype
 
-⋅⋅*According to general news blockchain technology will solve all our problems
-⋅⋅*Majority of token projects and ICOs are overhyped; most will fail to deliver on their promises
+*According to general news blockchain technology will solve all our problems
+*Majority of token projects and ICOs are overhyped; most will fail to deliver on their promises
 
 #The need to filter
 
