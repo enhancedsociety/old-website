@@ -41,5 +41,6 @@ We are constantly building better tools to automate the quality evaluation metho
 
 
 ### Teach
-This is the best way to help others evaluate quality. To improve our original question we can now ask: 
+This is the best way to help others evaluate quality. To improve our original question we can now ask:
+
 "Which of the blockchain quality evaluations: easy, useful, secure, legal and open is important and relevant to me right now?"
