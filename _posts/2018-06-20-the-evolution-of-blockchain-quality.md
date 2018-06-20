@@ -5,7 +5,7 @@ date: 2018-06-20
 author: Kim
 ---
 
-#How can we better evaluate the quality of a blockchain project?
+"How can we better evaluate the quality of a blockchain project?"
 
 There is so much hype and speculation in the blockchain space, as well as geekiness, that it is very difficult for anyone to understand what is real and what is hype.
 
