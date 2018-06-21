@@ -1,39 +1,39 @@
+- name: Clarence Tan
+  image: clarence.png
+  title: Singularity University
+  linkedin: https://www.linkedin.com/in/drctan/
+  
+- name: Philip Nyssen
+  image: philip.png
+  title: Business Advisor and Investor
+  linkedin: https://www.linkedin.com/in/phillip-nyssen-5b0125/
+
+- name: Chris Saad
+  image: chris.png
+  title: Platform advocate & Strategy
+  linkedin: https://www.linkedin.com/in/chrissaad/
+ 
+- name: Michael Parnell
+  image: michael.png
+  title: Blockchain Advisor
+  linkedin: https://www.linkedin.com/in/michael-parnell-945851136/
+  
 - name: Matthew Clayworth
   image: matthew.png
   title: PE / VC Investor
   linkedin: https://www.linkedin.com/in/matthew-clayworth-209649118/
 
-- name: Clarence Tan
-  image: clarence.png
-  title: Singularity University
-  linkedin: https://www.linkedin.com/in/drctan/
-
-- name: Michael Parnell
-  image: michael.png
-  title: Crypto Advisor
-  linkedin: https://www.linkedin.com/in/michael-parnell-945851136/
-  
-- name: Jesper Carvalho Andersen 
-  image: jesper.png
-  title: Globaliser & Capitaliser
-  linkedin: http://linkedin.com/in/jesperca
+- name: David Enright
+  image: david.png
+  title: Sustainability Investor
+  linkedin: https://www.linkedin.com/in/david-enright-510ba41/
   
 - name: Paul Niederer
   image: paul.png
   title: Board Representative for Crowdsales / Funding Project Management
   linkedin: https://www.linkedin.com/in/paulniederer/
 
-- name: David Enright
-  image: david.png
-  title: Fund Committee
-  linkedin: https://www.linkedin.com/in/david-enright-510ba41/
-
-- name: Philip Nyssen
-  image: philip.png
-  title: Fund Committee
-  linkedin: https://www.linkedin.com/in/phillip-nyssen-5b0125/
-  
-- name: Chris Saad
-  image: chris.png
-  title: Platform advocate & Strategy
-  linkedin: https://www.linkedin.com/in/chrissaad/
+- name: Jesper Carvalho Andersen 
+  image: jesper.png
+  title: Globaliser & Capitaliser
+  linkedin: http://linkedin.com/in/jesperca
