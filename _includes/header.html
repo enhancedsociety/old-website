@@ -1,12 +1,24 @@
 <header class="row" style="background: url(/assets/img/{{ page.header_image | default: "home-banner.jpg" }}); background-size: cover; height: {{ page.header_height | default: "150" }}px;">
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col w-100">
-				<a href="/" class="logo"><img src="/assets/img/{{ page.logo_src | default: 'logo.svg' }}" /></a>
+		<div class="row navbar-expand-md">
+			<div class="col-8 col-md-6 p-4">
+				<a href="/" class="logo"><img src="/assets/img/{{ page.logo_src | default: 'logo.svg' }}" class="img-fluid" /></a>
 			</div>
-			<div class="d-none d-sm-flex align-items-center text-right pr-4">
-				<a href="/blog" class="text-white mr-4">Blog</a>
-				<a href="https://app.enhancedsociety.com/login/" target="_blank" class="btn btn-outline-light">Sign in</a>
+			<div class="col-4 col-md-6 text-right pr-4 mt-3 py-4">
+			    <button class="navbar-toggler mr-auto text-white" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars fa-1x"></i></button>
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="navbar-nav ml-auto pb-5 text-left">
+						<li class="nav-item">
+							<a href="/blog" class="nav-link text-white mr-4">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://app.enhancedsociety.com/tse/projects/" class="nav-link text-white mr-4">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://app.enhancedsociety.com/login/" target="_blank" class="nav-link text-white">Sign in</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
