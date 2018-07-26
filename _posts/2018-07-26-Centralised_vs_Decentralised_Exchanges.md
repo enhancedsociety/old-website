@@ -24,7 +24,9 @@ Decentralised exchanges are **averaging USD$30M per day**.
 The below 2 charts show data from decentralised exchanges on Ethereum over a 2 week period.  From the data you can see the volatility in daily volume with only a few exchanges transacting significant volumes on a daily basis.  0x relayers are currently accounting for approximately 4% of volume compared to exchanges operating on other decentralised protocols.
 
 ![alt text](https://www.enhancedsociety.com/assets/img/reporting_eth_dex_protocol_volume_charts.PNG "dEX Exchange Volume Charts")
+
 ![alt text](https://www.enhancedsociety.com/assets/img/reporting_eth_dex_vol_txn_piecharts.PNG "dEX Exchange Volume Txn Pie Charts")
+
 ![alt text](https://www.enhancedsociety.com/assets/img/reporting_eth_dex_protocol_vol_txn_tbl.PNG "dEX Ethereum Volume Txn Table")
 
 The above chart is sourced from etherscan and shows total number of transactions by exchange from inception.  Ether Delta and IDEX are clear front runners at present and responsible for 94% of total transactions to date. However, there are a few more decentralised exchanges doing more volume as identified by coinmarketcap.  It is unclear why etherscan is not reporting some of these exchanges.
@@ -32,7 +34,11 @@ The above chart is sourced from etherscan and shows total number of transactions
 ### Coinmarketcap dEX Data
 Coinmarketcap exchange tracking shows utilisation of the 0x, graphene and other decentralized protocols to be steady with no significant growth over the period tracked since 21st June.  
 
+![alt text](https://www.enhancedsociety.com/assets/img/reporting_cmc_dex_protocol_vol_chart.PNG "cmc dEX Protocol Volume Chart")
+
 Likewise, the below chart tracking exchanges daily volume doesn’t reveal any significant growth for the period since 21st June.
+
+![alt text](https://www.enhancedsociety.com/assets/img/reporting_cmc_dex_exchange_vol_chart.PNG "cmc dEX Protocol Volume Chart")
 
 ## 2. Centralised Exchanges
 Centralised exchanges are currently responsible for 99% of daily volume (approx. USD$3 billion) while the decentralised exchanges are transacting only 1% (approx. USD$30 million).  There are 208 exchanges reported on coinmarketcap with 19 of these decentralised. Tracking the success of decentralised exchange volume is probably best done in isolation at present due to the established centralised exchanges operating in the space.  The top 4 centralised exchanges are transacting in excess of 1 billion USD daily so there is a way to go before decentralised exchanges will impact on this space. 
