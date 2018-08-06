@@ -45,6 +45,8 @@ I'm more worried about selling my product once for the first time than I am abou
 
 I should caveat the above with the assumption that we build products for markets that aren't nearing saturation. Why would we innovate in a saturated market? :)
 
+At Enhanced Society we are always striving to bring out the quality. A key component of quality is transparency. To this end we do as much as possible open source, including our learnings. This brings people together and lets them learn from each other!
+
 As always, come join us to shoot the breeze on [telegram](http://t.me/enhancedsociety). <strong>We are only as strong as our community!</strong>
 
 Side note: here's a pic of me doing a lion dance at the China Town markets on the weekend, just part of our creative healthy lifestyle!
