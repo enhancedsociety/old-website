@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Baring it all in your whitepaper
-date: 2018-06-04
+date: 2018-08-04
 author: d
 ---
 
