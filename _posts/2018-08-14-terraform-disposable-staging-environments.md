@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 'Disposable staging environments using Terraform workspaces'
-date: 2018-07-27
+date: 2018-08-14
 author: carl
 ---
 
