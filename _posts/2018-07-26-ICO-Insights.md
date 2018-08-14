@@ -1,11 +1,10 @@
 ---
 layout: blog
 title: ICO Insights
-date: 2018-07-26
+date: 2018-07-30
 author: belinda
 ---
 
-# Overview
 It has been identified that having current and accurate ICO data will assist future ICOs to better understand the environment.  This will, in turn, provide a framework for determining viable token features such as caps, run dates and sale prices. It is also integral to track any changes to status, classification and trends within the space which will facilitate informed decision making and promotion of utility and quality.
 
 It has become evident that a lack of authenticity, transparency and accessibility of ICO statistics pose issues for future use in this industry.  It is also clear that there is no one source of truth where data has clearly been verified and made available for open access.  This suggests there may be an opportunity for making available a single point of access to complete, comprehensive and verified ICO data in the blockchain industry.  This may include provision of on-chain verified data, collaboration between existing sources to encourage implementation of data integrity measures to ensure their data is verified and reliable,  alignment between third party providers to verify data or a combination of all options.
