@@ -5,8 +5,6 @@ date: 2018-07-26
 author: belinda
 ---
 
-# Centralised vs Decentralised
-
 Decentralised exchanges (dEXs) are fast becoming a viable alternative to the established centralised exchanges ruling the crypto marketplace to date.  The benefits of a decentralised exchange are mainly around security and trust.  Large centralised exchanges that store data and manage transactions off-chain are vulnerable to hacking and security breaches and lack the transparency so valued in the cryptocurrency space.
 
 There are a number of protocols decentralised exchanges are utilising to operate their exchanges, or relays, including 0x, graphene (bitshares) and swap.  To better understand this decentralised exchange ecosystem we have set out to track daily volume, transactions and token activity through these entities.  This will provide a tool for investigating and identifying success and quality in this space.
