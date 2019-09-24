@@ -5,8 +5,8 @@ variable "aws_region" {
 
 terraform {
   backend "s3" {
-    bucket = "enhancedsociety-terraform"
-    key    = "website"
+    bucket = "cakeequity-terraform"
+    key    = "enhanced-website"
     region = "ap-southeast-2"
   }
 }
